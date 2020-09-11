@@ -145,7 +145,7 @@ rect(width/8,height/1.82,width/1.3,1)
 
      }
 }
-    if(localStorage.login==34){
+    if(localStorage.speed==34){
          resizeCanvas(window.innerWidth,window.innerHeight*1.1)
 
     background(homebg)
