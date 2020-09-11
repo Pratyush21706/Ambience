@@ -1,4 +1,4 @@
-localStorage.speed;
+localStorage.ghus;
 var food,water,sleep,run;
 localStorage.name;
 localStorage.age;
@@ -87,7 +87,7 @@ function registerd(){
     localStorage.age = input2.value();
     console.log("Name: "+localStorage.name)
         console.log("Age: "+localStorage.age)
-    localStorage.speed = 34;
+    localStorage.ghus = 34;
  input1.position(width/4,-555);
  input2.position(width/4,-555);
  registerButton.position(width/2.1,-555)
@@ -109,7 +109,7 @@ function draw(){
 //        better = quotes.body;
 //        console.log(better)
 //    }
- if(localStorage.speed==null){
+ if(localStorage.ghus==null){
      if(a===1){
     fill("black")
           image(smile,width/11,height/8,width/1.1,height/3)
@@ -145,7 +145,7 @@ rect(width/8,height/1.82,width/1.3,1)
 
      }
 }
-    if(localStorage.speed==34){
+    if(localStorage.ghus==34){
          resizeCanvas(window.innerWidth,window.innerHeight*1.1)
 
     background(homebg)
