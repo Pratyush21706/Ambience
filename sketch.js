@@ -18,12 +18,6 @@ function preload(){
         age = loadImage("age.jpg")
             bot = loadImage("bot.png")
 dk = loadImage("desktop.png")
-    light = loadImage("light.png")
-    dark = loadImage("dark.png")
-    food = loadImage("food.png")
-    water = loadImage("water.png")
-    sleep = loadImage("sleep.png")
-    run = loadImage("run.png")
     qot = loadImage("qot.png")
     
 }
